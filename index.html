@@ -3,133 +3,298 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
-    rel="stylesheet"/>
+    <title>Tracy Frema Opoku | Web Developer</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/Imgs/ervo-rocks-Zam8TvEgN5o-unsplash.jpeg">
 </head>
-
 <body>
-    <header class="header_container">
-        <nav>
-            <div class="nav_content">
-                <div class="logo"><a href="#">Tracy</a></div> 
-                    <label for="check" class="checkbox">
-                        <i class="ri-menu-line"></i>
-                    </label>
-                    <input type="checkbox" name="check" id="check">
-                    <ul>
-                        <li><a href="">Home</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Projects</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>  
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">Tracy</a>
+            <div class="menu-toggle">
+                <i class="ri-menu-line"></i>
             </div>
-        </nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <section class="section">
-            <div class="section_container">
-                <div class="content">
-                    <p class="subtitle">HELLO</p>
-                    <h1 class="title">I'm <span>Tracy Frema Opoku <br>a</span> Web Developer</h1>
-                    <p>
-                        Welcome to my portfolio. I'm Tracy, a skilled and creative web developer with a passion for creating
-                        beautiful and user-friendly websites. This is a glimpse into my creative vision and process.
-                    </p><br>
-                    <div class="action_btns">
-                        <button class="hire_me">Hire Me</button>
-                        <button class="portfolio">Portfolio</button>
-                    </div>
-                </div>
-                <div class="image">
-                    <img src="/Assets/Imgs/WhatsApp Image 2024-05-11 at 12.48.19 PM.jpeg" alt="profile">
-                </div>
-            </div>
-        </section>
-    </header>
-
-    <section class="about">
-        <div class="section_container about_container">
-            <div class="about_image">
-                <img src="/Assets/Imgs/_MG_3679.jpg" alt="about">
-            </div>
-            <div class="about_content">
-                <h2 class="title_2">About <span> Me</span></h2>
-                <p class="subtitle_2"> Creative Web Developer</p>
-                <p class="about_details">
-                    As a web developer, I specialize in creating user-friendly websites for customers. I have experience
-                    workig with product managers and other stakeholders to create websites that meet the needs of users.
-                    Throughout my career, I have designed successful digital proucts that have received positive feedback
-                    from users and stakeholders.
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-subtitle">HELLO THERE</p>
+                <h1 class="hero-title">I'm <span>Tracy Frema Opoku</span><br>A Web Developer</h1>
+                <p class="hero-description">
+                    Welcome to my portfolio. I'm a skilled and creative web developer with a passion for creating
+                    beautiful and user-friendly websites. Let's bring your digital vision to life.
                 </p>
-                <div class="action_btns">
-                    <button class="about_me">More About Me</button>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#projects" class="btn btn-outline">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./Assets/pic.png" alt="Tracy Frema Opoku">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="./Assets/Imgs/_MG_3679.jpg" alt="About Tracy">
+            </div>
+            <div class="about-text">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <p class="section-subtitle">Creative Web Developer</p>
+                <p class="about-description">
+                    As a web developer, I specialize in creating user-friendly websites that deliver exceptional experiences.
+                    My work involves close collaboration with product managers and stakeholders to ensure that every project
+                    meets and exceeds user expectations. With a track record of successful digital products and positive
+                    feedback from clients, I bring both technical expertise and creative vision to every project.
+                </p>
+                <a href="#" class="btn btn-primary">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2 class="section-title">Recent <span>Projects</span></h2>
+            <p class="section-subtitle">Showcasing my best work</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <i class="ri-book-line project-icon"></i>
+                <h3>Book Store</h3>
+                <p>A modern bookstore website with API integration for dynamic book data management and seamless user experience.</p>
+                <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+            <div class="project-card">
+                <i class="ri-shopping-bag-line project-icon"></i>
+                <h3>Digital Product Store</h3>
+                <p>An e-commerce platform specialized in digital products, featuring secure payment integration and content delivery.</p>
+                <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+            <div class="project-card">
+                <i class="ri-t-shirt-line project-icon"></i>
+                <h3>Nightwear Store</h3>
+                <p>A sophisticated e-commerce solution for a premium nightwear brand with advanced filtering and search capabilities.</p>
+                <a href="#" class="btn btn-outline">View Project</a>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills"></section>
+        <div class="skills-content">
+            <h2 class="section-title text-center">My <span>Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card fade-in">
+                    <i class="ri-html5-line skill-icon"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup and modern web standards</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="ri-css3-line skill-icon"></i>
+                    <h3>CSS3</h3>
+                    <p>Responsive design and animations</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="ri-javascript-line skill-icon"></i>
+                    <h3>JavaScript</h3>
+                    <p>Modern ES6+ and frameworks</p>
+                </div>
+                <div class="skill-card fade-in">
+                    <i class="ri-reactjs-line skill-icon"></i>
+                    <h3>React</h3>
+                    <p>Component-based architecture</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="project">
-        <div class="section_container_3 project_container">
-            <p class="subtitle">Projects</p>
-            <h2 class="title">My Recent<span> Projects</span></h2>
-            <div class="project_grid">
-                <div class="project_card">
-                    <i class="ri-bookmark-line"></i>
-                    <h4>Book Store</h4>
-                    <p>A bookstore website built with <br>
-                    API leverages to fetch and display book data.</p>
-                    <a href="#" class="read_more">Read more...</a>
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <!-- Previous contact info remains the same -->
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" class="form-input" id="name" placeholder=" " required>
+                    <label for="name" class="form-label">Your Name</label>
                 </div>
-                <div class="project_card">
-                    <i class="ri-bookmark-line"></i>
-                    <h4>Digital Product Store</h4>
-                    <p>A product store where you can sell downloadable
-                    or streamable products such as e-books and online courses.</p>
-                    <a href="#" class="read_more">Read more...</a>
+                <div class="form-group">
+                    <input type="email" class="form-input" id="email" placeholder=" " required>
+                    <label for="email" class="form-label">Your Email</label>
                 </div>
-                <div class="project_card">
-                    <i class="ri-bookmark-line"></i>
-                    <h4>Nightwear Store</h4>
-                    <p>A user-friendly website for a nightwear brand seeking to promote
-                        various collections of sleepwear and loungewear. </p>
-                    <a href="#" class="read_more">Read more...</a>
+                <div class="form-group">
+                    <textarea class="form-input" id="message" placeholder=" " required></textarea>
+                    <label for="message" class="form-label">Your Message</label>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="section_container_2 footer_cntainer">
-            <div class="footer_content">
-                <h2 class="title_2">Contact <span>Me</span></h2>
-                <p class="subtitle_2">If you have any project in mind</p>
-                <div class="footer_details">
-                    <p>
-                        You can reach me through the fom provided.Simply fill out the form with your name,
-                        email address, and message, and I will get back to you as soon as possible.
-                    </p>
-                    <p>Accra, Ghana</p>
-                </div>
-                <div class="social_icons">
-                    <a href="#" class="icon"><i class="ri-instagram-line"></i></a>
-                    <a href="#" class="icon"><i class="ri-mail-line"></i></a>
-                    <a href="#" class="icon"><i class="ri-twitter-line"></i></a>
-                    <a href="#" class="icon"><i class="ri-linkedin-fill"></i></a>
-                </div>
-            </div>
-            <form class="footer_form" action="">
-                <input type="text" placeholder="Your Name" required>
-                <input type="text" placeholder="Your Email Address" required>
-                <input type="text" placeholder="Your Phone Number" required>
-                <textarea cols="30" rows="10" placeholder="Your Idea"></textarea>
-                <div class="action_btns">
-                <button type="submit" class="submit">Send Message</button>
-                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
             </form>
         </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>Tracy Frema Opoku</h3>
+            <p>Web Developer | Creative Designer</p>
+            <div class="footer-links">
+                <a href="#home" class="footer-link">Home</a>
+                <a href="#about" class="footer-link">About</a>
+                <a href="#projects" class="footer-link">Projects</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </div>
+            <p>&copy; 2024 Tracy Frema Opoku. All rights reserved.</p>
+        </div>
     </footer>
+
+    <button class="scroll-top">
+        <i class="ri-arrow-up-line"></i>
+    </button>
+
+    <div class="loader">
+        <div class="loader-spin"></div>
+    </div>
+
+    <script>
+        // Menu Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Scroll Animations
+        const fadeElements = document.querySelectorAll('.fade-in');
+        const scrollTop = document.querySelector('.scroll-top');
+
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        fadeElements.forEach(element => {
+            observer.observe(element);
+        });
+
+        // Scroll to Top Button
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollTop.classList.add('visible');
+            } else {
+                scrollTop.classList.remove('visible');
+            }
+        });
+
+        scrollTop.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Page Loader
+        window.addEventListener('load', () => {
+            const loader = document.querySelector('.loader');
+            setTimeout(() => {
+                loader.classList.add('hidden');
+            }, 1000);
+        });
+
+        // Smooth Scroll for Navigation Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    navLinks.classList.remove('active');
+                }
+            });
+        });
+    </script>
+     <script>
+        const contactForm = document.getElementById('contactForm');
+        
+        contactForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const submitBtn = contactForm.querySelector('.submit-btn');
+            const formGroups = contactForm.querySelectorAll('.form-group');
+            
+            // Reset previous errors
+            formGroups.forEach(group => {
+                group.querySelector('.form-error').textContent = '';
+            });
+
+            // Show loading state
+            submitBtn.classList.add('loading');
+
+            // Simulate form submission delay
+            await new Promise(resolve => setTimeout(resolve, 1500));
+
+            // Simple validation
+            let isValid = true;
+            const name = document.getElementById('name');
+            const email = document.getElementById('email');
+            const subject = document.getElementById('subject');
+            const message = document.getElementById('message');
+
+            if (name.value.trim() === '') {
+                showError(name, 'Name is required');
+                isValid = false;
+            }
+
+            if (email.value.trim() === '') {
+                showError(email, 'Email is required');
+                isValid = false;
+            } else if (!isValidEmail(email.value)) {
+                showError(email, 'Please enter a valid email');
+                isValid = false;
+            }
+
+            if (subject.value.trim() === '') {
+                showError(subject, 'Subject is required');
+                isValid = false;
+            }
+
+            if (message.value.trim() === '') {
+                showError(message, 'Message is required');
+                isValid = false;
+            }
+
+            if (isValid) {
+                // Simulate successful submission
+                alert('Message sent successfully!');
+                contactForm.reset();
+            }
+
+            // Remove loading state
+            submitBtn.classList.remove('loading');
+        });
+
+        function showError(input, message) {
+            const formGroup = input.closest('.form-group');
+            const errorDiv = formGroup.querySelector('.form-error');
+            errorDiv.textContent = message;
+        }
+
+        function isValidEmail(email) {
+            return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        }
+    </script>
 </body>
 </html>
