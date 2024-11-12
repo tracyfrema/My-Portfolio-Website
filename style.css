@@ -162,6 +162,7 @@ body {
     background: var(--secondary-color);
     color: white;
     margin-right: 1rem;
+    margin-top: 1rem;
 }
 
 .btn-primary:hover {
@@ -434,6 +435,39 @@ body {
 
     .contact-form {
         padding: 1.5rem;
+    }
+}
+
+/* .contact-form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+} */
+
+.contact-form-image {
+    justify-self: end;
+}
+
+.contact-form-image img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .contact-form-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form-image {
+        justify-self: center;
     }
 }
  /* Additional Animations */
